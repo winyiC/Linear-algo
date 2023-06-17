@@ -30,3 +30,7 @@ Calculate x_delta norm inf;
 Calculate relative error percentage(err_percentage);
 
 If err_percentage>100%, break loop;
+
+**Challenge Project-Householder Transformation**
+Use Householder Transform nxm matrix to solve linear square system.
+Obtain Q, R matrix, and use back subsitution method to obtain x_head.
