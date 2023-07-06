@@ -14,7 +14,7 @@ v=
 beta12
 H0a0:
 gamma=	6
-calculation_v=	[3. 1. 1. 1.]
+calculation_v=2 * (v_T*a[j])/ (v.T @ v)= 	[3. 1. 1. 1.]
 R=
 [[-2. -1.  4.]
  [ 0.  4. -2.]
@@ -22,7 +22,7 @@ R=
  [ 0. -1.  0.]]
 H0a1:
 gamma=	4.0
-calculation_v=	[2. 1. 1. 1.]
+calculation_v=2 * (v_T*a[j])/ (v.T @ v)= 	[2. 1. 1. 1.]
 R=
 [[-2. -3.  4.]
  [ 0.  3. -2.]
@@ -30,7 +30,7 @@ R=
  [ 0. -2.  0.]]
 H0a2:
 gamma=	12.0
-calculation_v=	[6. 2. 2. 2.]
+calculation_v=2 * (v_T*a[j])/ (v.T @ v)= 	[6. 2. 2. 2.]
 R=
 [[-2. -3. -2.]
  [ 0.  3. -4.]
@@ -46,7 +46,7 @@ v=
 beta77
 H1a1:
 gamma=	37.0
-calculation_v=	[ 8.  3. -2.]
+calculation_v=2 * (v_T*a[j])/ (v.T @ v)= 	[ 8.  3. -2.]
 R=
 [[-2. -3. -2.]
  [ 0. -5. -4.]
@@ -54,7 +54,7 @@ R=
  [ 0.  0. -2.]]
 H1a2:
 gamma=	-28.0
-calculation_v=	[-6. -2.  1.]
+calculation_v=2 * (v_T*a[j])/ (v.T @ v)= 	[-6. -2.  1.]
 R=
 [[-2. -3. -2.]
  [ 0. -5.  2.]
@@ -70,7 +70,7 @@ v=
 beta45
 H2a2:
 gamma=	21.0
-calculation_v=	[ 6. -3.]
+calculation_v=2 * (v_T*a[j])/ (v.T @ v)= 	[ 6. -3.]
 R=
 [[-2. -3. -2.]
  [ 0. -5.  2.]
